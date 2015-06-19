@@ -1,0 +1,23 @@
+with Ada.Text_IO; use Ada.Text_IO;
+
+package LibComplexLists is
+   type Element;
+   type List is access Element;
+   subtype Name is String (1..15);
+   subtype IdNumber is Positive range 100..999;
+   procedure read(C: out Char; Stud: out Name; Id: out idNumber);
+   procedure Insert(Stud: in Name; Id: in IdNumber; Db: in out  List);
+   procedure Delete(Stud: in Name; Id: in IdNumber; Db: in out List);
+   procedure Print(C: in Char; Db: in List);
+
+private
+   type Element is record
+      StudName: Name;
+      Id: idNumber
+      PrevName: List;
+      NextName: List;
+      PrevId: List;
+      NextId: List;
+      start: list;
+      endL: list;
+   end record;

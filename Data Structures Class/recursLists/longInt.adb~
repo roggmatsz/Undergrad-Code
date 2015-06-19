@@ -1,0 +1,19 @@
+package body LongInt is
+   procedure Add(A: in LongInt; B: in LongInt; res: out longInt) is
+    carry: natural;
+	begin
+		carry:= 0;
+		dieRekursive(A, B, carry);
+		
+	end add;
+	procedure print(A: in longInt) is
+	begin
+	end print;
+	procedure fetch(B: out longInt) is
+	begin
+	end fetch;
+	procedure dieRekursive(C: in longInt; D: in longInt; carry: in out natural) is
+	begin
+		if c.all
+end longInt;
+	

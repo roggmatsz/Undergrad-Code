@@ -1,0 +1,22 @@
+with Ada.Text_IO; use Ada.Text_IO;
+with LibComplexLists; use LibComplexLists;
+
+procedure Test is
+   C, sub: Char;
+   Db: List;
+   File: File_Type;
+   StudName: Name;
+begin
+   Db := new Element'("aaaaaaaaaaaaaaa", 000, null, null, null, null,
+                      null, null);
+   Db := new Element'("zzzzzzzzzzzzzzz", 999, null, null, null, null,
+                      Db, null);
+   Db.Start.EndL := Db;
+   Open(File, File_Type, "file.txt");
+   Open(Outfile, Out_File, "outfile.txt");
+   while not End_Of_File loop
+      Read(Db);
+      case C
+         when 'p' | 'P' =>
+           Print(D,
+end Test;

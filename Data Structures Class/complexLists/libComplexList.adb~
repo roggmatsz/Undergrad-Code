@@ -1,0 +1,11 @@
+with Ada.Text_IO; use Ada.Text_IO;
+
+package body LibComplexLists is
+begin
+   procedure Read(File: File_Type, Db: in out list) is
+   begin
+      while not End_Of_File loop
+
+   end Read;
+
+end LibComplexLists;

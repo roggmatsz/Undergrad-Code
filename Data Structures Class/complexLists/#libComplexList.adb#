@@ -1,0 +1,39 @@
+with Ada.Text_IO; use Ada.Text_IO;
+
+package body LibComplexLists is
+begin
+   procedure read(Db: in out List; File: File_type) is
+      C, D: Char;
+      Infile, outfile: File_Type;
+      Db: List;
+      Stud: Name;
+      Id: IdNumber;
+   begin
+      Db := new Element'("aaaaaaaaaaaaaaa",
+      Open(infile, In_File, "file.txt");
+      Open(Outfile, Out_File, "outfile.txt");
+      while not End_Of_File loop
+         Get(File, C);
+         case C
+            when 'p' | 'P' =>
+              Get(File, d);
+              Print(d, Db);
+            when 'a' | 'A' =>
+              Get(File, Stud);
+              Get(File, Id);
+              Insert(Stud, Id, Db);
+            when 'd' | 'D' =>
+              Get(File, D);
+              Get(File, Stud);
+         end case;
+      end loop;
+      Close(Infile);
+      Close(Outfile);
+   end Read;
+
+   procedure Insert (Stud: in Name; Id: in IdNumber; Db: in out List) is
+      Pointer: ComplexList;
+   begin
+      while Db.StudName !=
+
+end LibComplexLists;

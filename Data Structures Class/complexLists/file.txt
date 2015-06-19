@@ -1,0 +1,21 @@
+P 1
+P 2
+A Smith           245
+A Jones           138
+A Williams        750
+A Brown           467
+A Jones           988
+A Thomas          200
+A Walters         150
+A Byron           608
+A Babbage         811
+A Gates           911
+P 1
+P 2
+D 1 Gates          
+D 2 200
+P 1
+P 2
+A Green           333
+P 1
+P 2

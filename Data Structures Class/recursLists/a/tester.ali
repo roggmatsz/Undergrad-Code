@@ -1,0 +1,70 @@
+V "GNAT Lib v2010"
+M P W=b
+A -mmacosx-version-min=10.6.8
+A -mtune=generic
+A -fPIC
+A -fno-common
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnn
+
+U tester%b		tester.adb		60e31f5e NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W liblongint%s		liblongint.adb		liblongint.ali
+
+D ada.ads		20100603062030 9c7dd3ea
+D a-except.ads		20100603061925 34786013
+D a-finali.ads		20100603061929 bfd2ca79
+D a-filico.ads		20100603061928 4ff02a40
+D a-inteio.ads		20100603061929 03bc737c
+D a-ioexce.ads		20100603061931 2504b9d2
+D a-stream.ads		20100603061946 34aca5be
+D a-tags.ads		20100603062003 bfa07446
+D a-textio.ads		20100603062005 7065b2f2
+D a-tiinio.ads		20100603062008 949a7272
+D a-unccon.ads		20100603062010 51e09df2
+D interfac.ads		20100603062247 a69cad5c
+D i-cstrea.ads		20100603062238 e1e064a9
+D liblongint.ads	20111022030009 a3a45aee
+D system.ads		20100603062759 b0a7514b
+D s-crtl.ads		20100603062405 1dba5d50
+D s-exctab.ads		20100603062408 4b7fd51d
+D s-ficobl.ads		20100603062415 c05c3205
+D s-finimp.ads		20100603062417 90fd9896
+D s-finroo.ads		20100603062418 1408f9d1
+D s-parame.ads		20100603062544 6cdeed25
+D s-secsta.ads		20100603062555 d2c357fb
+D s-soflin.ads		20100603062559 61e5c9e8
+D s-stache.ads		20100603062602 481f9e9d
+D s-stalib.ads		20100603062604 9cbc334a
+D s-stoele.ads		20100603062606 a4d57c26
+D s-stoele.adb		20100603062606 d9d7e80e
+D s-stratt.ads		20100603062608 fef7c1da
+D s-traent.ads		20100603062648 a66ef260
+D s-unstyp.ads		20100603062650 c0f9fae5
+D s-wchcon.ads		20100603062709 30c48dc1
+D tester.adb		20111022025952 b09e843e
+X 1 ada.ads
+16K9*Ada 19e8 32|2r6 2r23 3r6 3r31
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[10|48] 32|3w10 3r35
+X 9 a-textio.ads
+52K13*Text_IO 475e16 32|2w10 2r27
+170U14*New_Line 32|14r4 19r4 23r4
+173U14*Skip_Line 32|15r4
+246U14*Put 32|11r4 16r4 21r4
+X 14 liblongint.ads
+3K9*libLongInt 18e15 32|1w6 6r11 7r11 9r13 12r4 13r4 17r4 18r4 20r4 22r4
+4P9*LongInt(12R9) 32|6r22 7r22 9r24
+5U14*Add 32|20r15
+7U14*Print 32|13r15 18r15 22r15
+8U14*Fetch 32|12r15 17r15
+12R9 Digit 17e14
+X 32 tester.adb
+5U11*Tester 5b11 24l5 24t11
+6p4 long1{14|4P9} 12m21 13r21 20r19
+7p4 long2{14|4P9} 17m21 18r21 20r26
+8i4 I{integer} 20r42
+9p4 results{14|4P9} 20m33 22r21
+

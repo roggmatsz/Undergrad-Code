@@ -1,0 +1,59 @@
+V "GNAT Lib v2010"
+M P W=b
+A -mmacosx-version-min=10.6.8
+A -mtune=generic
+A -fPIC
+A -fno-common
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U foo%b			foo.adb			b76ae9ab NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20100603062030 9c7dd3ea
+D a-except.ads		20100603061925 34786013
+D a-finali.ads		20100603061929 bfd2ca79
+D a-filico.ads		20100603061928 4ff02a40
+D a-ioexce.ads		20100603061931 2504b9d2
+D a-stream.ads		20100603061946 34aca5be
+D a-tags.ads		20100603062003 bfa07446
+D a-textio.ads		20100603062005 7065b2f2
+D a-unccon.ads		20100603062010 51e09df2
+D foo.adb		20111003000136 c70f5b59
+D interfac.ads		20100603062247 a69cad5c
+D i-cstrea.ads		20100603062238 e1e064a9
+D system.ads		20100603062759 b0a7514b
+D s-crtl.ads		20100603062405 1dba5d50
+D s-exctab.ads		20100603062408 4b7fd51d
+D s-ficobl.ads		20100603062415 c05c3205
+D s-finimp.ads		20100603062417 90fd9896
+D s-finroo.ads		20100603062418 1408f9d1
+D s-parame.ads		20100603062544 6cdeed25
+D s-secsta.ads		20100603062555 d2c357fb
+D s-soflin.ads		20100603062559 61e5c9e8
+D s-stache.ads		20100603062602 481f9e9d
+D s-stalib.ads		20100603062604 9cbc334a
+D s-stoele.ads		20100603062606 a4d57c26
+D s-stoele.adb		20100603062606 d9d7e80e
+D s-stratt.ads		20100603062608 fef7c1da
+D s-traent.ads		20100603062648 a66ef260
+D s-unstyp.ads		20100603062650 c0f9fae5
+D s-wchcon.ads		20100603062709 30c48dc1
+X 1 ada.ads
+16K9*Ada 19e8 10|15r6 15r23
+X 8 a-textio.ads
+52K13*Text_IO 475e16 10|15w10 15r27
+170U14*New_Line 10|31r25 35r25
+176V13*End_Of_Line{boolean} 10|25r20 30r20
+210U14*Get 10|26r17
+212U14*Put 10|28r17 33r33
+X 10 foo.adb
+17U11*foo 17b11 38l5 38t8
+18e9 c{character} 26m21 27r24 28r21
+19b9 isEOL{boolean}
+20i9 e{integer} 24m9 27r19 29m17 29r21
+21A14 arr(character)<integer> 22r12
+22a9 d{21A14} 27m17 33r37
+32i29 i{integer} 33r39
+
